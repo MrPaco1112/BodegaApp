@@ -3,9 +3,10 @@ package com.mycompany.bodegaapp;
 
 public class Elemento {
     String nombre;
-    int precio;
+    Double precio;
     
-    public Elemento(String nombre, int precio) {
+    
+    public Elemento(String nombre, Double precio) {
         this.nombre = nombre;
         this.precio = precio;
      
@@ -21,18 +22,18 @@ public class Elemento {
         this.nombre = nombre;
     }
 
-    public int getPrecio() {
+    public Double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(Double precio) {
         this.precio = precio;
     }
     //Para que pueda leer el objeto para subir
     @Override
     public String toString() {
-        return "Persona{" +
-                "nombre ='" + nombre + '\'' +
-                ", precio =" + precio ;
+        return 
+                "Nombre :'" + nombre + '\'' +
+                "Precio :" + precio ;
     }
 }

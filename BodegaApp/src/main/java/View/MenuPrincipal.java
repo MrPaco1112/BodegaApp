@@ -7,11 +7,11 @@ import java.awt.*;
 
 
 public class MenuPrincipal extends javax.swing.JFrame {
-    BodegaApp manager = new BodegaApp();
+    static BodegaApp manager = new BodegaApp();
     
     public MenuPrincipal() {
         initComponents();
-        
+        manager.initRTD();
     }
 
    
@@ -122,7 +122,13 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 System.exit(0);
             }
     }//GEN-LAST:event_jButton4ActionPerformed
-
+    public static void agregar(String clave, Double valor){
+        
+    }
+    public static void busquedaIndice(JTextArea textArea){
+        
+        AsistenteFirebase.buscarPorIndice(manager.firebaseDatabase, "Bodega", textArea);
+    }
    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */

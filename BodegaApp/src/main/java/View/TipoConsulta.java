@@ -65,7 +65,7 @@ public class TipoConsulta extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        String input = JOptionPane.showInputDialog("Ingresa el ID:");
+        
         this.dispose(); // Cierra esta ventana
         new ConsultaXId().setVisible(true);
         

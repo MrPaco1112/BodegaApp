@@ -1,5 +1,6 @@
 View\ActualizNombre.class
 View\TipoActualiz$3.class
+com\mycompany\bodegaapp\AsistenteFirebase$6.class
 View\Añadir$2.class
 View\ConsultaGeneral$2.class
 View\ConsultaXId$2.class
@@ -17,6 +18,7 @@ View\Añadir$4.class
 View\TipoActualiz$2.class
 View\ConsultaGeneral.class
 com\mycompany\bodegaapp\AsistenteFirebase$3.class
+View\ConsultaXId$3.class
 View\MenuPrincipal$2.class
 View\ActualizPrecio.class
 View\MenuPrincipal$3.class
@@ -36,6 +38,7 @@ com\mycompany\bodegaapp\AsistenteFirebase$2.class
 View\MenuPrincipal.class
 View\ActualizNombre$2.class
 View\Añadir.class
+com\mycompany\bodegaapp\AsistenteFirebase$7.class
 View\ActualizPrecio$4.class
 com\mycompany\bodegaapp\Elemento.class
 View\ConsultaGeneral$1.class

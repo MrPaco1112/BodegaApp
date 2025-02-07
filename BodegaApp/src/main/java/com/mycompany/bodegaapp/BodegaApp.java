@@ -9,13 +9,14 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-/**
- *
- * @author Juan Esteban Sarmiento Benitez
- */
+
 public class BodegaApp {
 
+    public static BodegaApp instance;
+
     public FirebaseDatabase firebaseDatabase;
+    public FirebaseDatabase firebasedatabase;
+    public BodegaApp firebaseDatabse;
     public void initRTD(){ 
         
         //https://pacopruebas-165de-default-rtdb.firebaseio.com/ Link al repositorio de Juanes
@@ -23,7 +24,7 @@ public class BodegaApp {
         //D:\Monica Sarmiento\Documents\NetBeansProjects\IdManagerV2\ID_Extractor_POO-main\IdManagerV2\IdManagerV2main\IdManager\pacopruebas-165de-firebase-adminsdk-fbsvc-6eb7c97568.json Ruta en Pacoportatil
         try {
             // Ruta al archivo JSON de credenciales
-            String pathToServiceAccount = "D:\\Monica Sarmiento\\Documents\\NetBeansProjects\\IdManagerV2\\ID_Extractor_POO-main\\IdManagerV2\\IdManagerV2main\\IdManager\\pacopruebas-165de-firebase-adminsdk-fbsvc-6eb7c97568.json";
+            String pathToServiceAccount = "C:\\Users\\USUARIO\\OneDrive\\Documentos\\NetBeansProjects\\IdManager\\pacopruebas-165de-firebase-adminsdk-fbsvc-6eb7c97568.json";
 
             // Construir opciones de Firebase
             FirebaseOptions firebaseOptions = new FirebaseOptions.Builder()
